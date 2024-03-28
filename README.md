@@ -60,3 +60,123 @@
 </body>
 
 </html>
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url("bg.jpg");
+  
+}
+
+div {
+    border: 1px solid black;   
+}
+
+img {
+  width: 200px;   
+
+}
+
+.ic{
+  margin: 1% ;
+}
+
+.search{
+  margin: 1% 40%;
+  width: 20%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #d049ac;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #f7fdc9;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #3fbad9;
+  color: white;
+}
+
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.circle{
+  border-radius: 50%;
+}
+
+.spencer{
+  margin: 0% 40%;
+  padding-bottom: 1%;
+}
+
+.name{
+  margin: 0% 40%;
+  padding: 1%;
+}
+
+a{
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.kanit{
+  font-family: 'Kanit', sans-serif;
+}
+
+h2, p{
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 1%;
+}
+
+.fontsize{
+  font-size: 140%;
+}
+
+.slab{
+  font-family: 'Josefin Slab', serif;
+}
+.bb,.tb,.gb, .gp, .spence{
+ width: 20%;
+  height: 20%;
+  margin:1%;
+}
+
+
